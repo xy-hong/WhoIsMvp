@@ -34,7 +34,6 @@ namespace WhoIsMvp
 				{
 					ChatHelper.BroadcastChatMessage(NetworkText.FromLiteral(item.Key + "造成了" + item.Value + "伤害;占比" + item.Value/sum*100 + "%"), Color.Red);
 				}
-                DamageStorage.damageMap.Clear();
             }
 		}
 
